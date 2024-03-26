@@ -10,12 +10,11 @@
   },
   "dependencies": {
     "expo": "~50.0.14",
+    "expo-camera": "~14.1.1",
+    "expo-face-detector": "~12.6.1",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.6",
-    "expo-face-detector": "~12.6.1",
-    "expo-camera": "~14.1.1",
-    "expo-notifications": "~0.27.6"
+    "react-native": "0.73.6"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0"
