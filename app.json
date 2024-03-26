@@ -5,15 +5,18 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "darks",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#121212"
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -25,7 +28,8 @@
         "android.permission.RECORD_AUDIO"
       ],
       "package": "com.devkay.FaceRecognitionApp",
-      "enableDangerousExperimentalLeanBuilds": true
+      "enableDangerousExperimentalLeanBuilds": true,
+      "runtimeVersion": "1.0.0"
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -44,6 +48,10 @@
       "eas": {
         "projectId": "129fe89b-1550-41e6-a633-4a15dc579f2d"
       }
+    },
+    "owner": "devkay",
+    "updates": {
+      "url": "https://u.expo.dev/129fe89b-1550-41e6-a633-4a15dc579f2d"
     }
   }
 }
